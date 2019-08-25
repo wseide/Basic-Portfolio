@@ -3,9 +3,22 @@
   background-color: white;
   padding: 20px;
   position: relative;
+  bottom: 0;
+  left: 0;
 }
+
+.headboard {
+  background-color: teal;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+  width: 150px;
+  position: relative;
+  bottom: 0;
+ }
+
 #links {
-  position: absolute; 
+  position: relative; 
   bottom: 0;
   right: 0;
 }
@@ -24,6 +37,7 @@ header {
   left: 0;
   top: 0;
   overflow: hidden;
+  width: 100%;
 }
  #headcontent {
    width: 100%;
@@ -31,7 +45,11 @@ header {
 }
 body {
   background-color: #BABAAB;
-  height: 100%
+  height: 100%;
+  margin: 0px;
+  width: 960px;
+  
+       
 }
 h2 {
   border-bottom: 3px solid gray;
@@ -41,6 +59,7 @@ h2 {
 }
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -89,6 +108,7 @@ color: white;
   margin-bottom: 4px;
   margin: auto;
   height: auto;
+  margin: auto;
   }
   img {
     padding: 7px 7px 7px 7px;
@@ -107,4 +127,19 @@ color: white;
       clear: both;
     }
 
+
+    html, body {
+      height: 100%;
+    
+  }
   
+  html {
+      display: table;
+      margin: auto;
+  }
+  
+  body {
+      display: table-cell;
+      vertical-align: middle;
+  
+  }
