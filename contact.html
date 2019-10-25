@@ -1,56 +1,131 @@
-<!DOCTYPE HTML>
+<!--FireBASE THE CONTACT FORM-->
+<!--Add more information-->
+<!--Add a way for them to download resume in PDF-->
+<!--fix gray space background-->
+
+<!DOCTYPE html>
 <html lang="en-US">
-
 <head>
-  <Title>Contacts</Title>
-  <link rel="stylesheet" href="style.css">
-  <meta charset="UTF-8">
+<meta charset="utf-8">
+<Title>Contact Wismy</Title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="" name="keywords">
+<meta content="" name="description">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Jomolhari&display=swap" rel="stylesheet">
+
+<!--Library CSS Files-->
+<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="lib/animate/animate.min.css" rel="stylesheet">
+<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+<!--My CSS-->
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<HTML>
-<header>
-  <div class="center">
-    <header class="headbox">
-      <div class="headboard"><strong>Wismy Seide</strong></div>
 
-      <div id="links">
-        <a href="index.html" style="float: right;" &nbsp;&nbsp;>About&nbsp;&nbsp;</a>
+<body id="page-top">
 
-</html>
-</div>
-<div id="links">
-  <a href="portfolio.html" style="float: right;">Portfolio</a></div>
-<div id="links">
-  <a href="contact.html" style="float: right;">Contact</a></div>
-</div>
+        <!--Nav-->
+        <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+          <div class="container">
+            <a class="navbar-brand js-scroll" href="#page-top">Wismy Seide's Portfolio</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+              aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link js-scroll" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll active" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      
+<!--Nav End-->
+<body>
 
-</header>
-
-
-<Body>
-  <section>
-
-    <div class="content">
-      <h2>Contact</h2>
-      <form action="/action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="name" name="name">
-
-        <label for="lname">Email</label>
-        <input type="text" id="email" name="email">
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message" pstyle="height:300px"></textarea>
-
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-  </section>
-
-  </div>
-
-</Body>
-<footer>
-  <div class="times">Copyright</div>
-</footer>
-
-</HTML>
+<section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/images/contactbackground.jpg)">
+  <div class="overlay-mf"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="contact-mf">
+          <div id="contact" class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="title-box-2">
+                  <h5 class="title-left">
+                    Message Wismy
+                  </h5>
+                </div>
+                <div>
+                    <form action="" method="post" role="form" class="contactForm">
+                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="errormessage"></div>
+                    <div class="row">
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <div class="validation"></div>
+                          </div>
+                      </div>
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="title-box-2 pt-4 pt-md-0">
+                  <h5 class="title-left">
+                    Get in Touch
+                  </h5>
+                </div>
+                <div class="more-info">
+                  <p class="lead">
+                    Whether you have opportunities or want to leave constructive feedback, please reach out. I would
+                    love to hear your ideas. Thank you for taking time to view my page.
+                  </p>
+                  <ul class="list-ico">
+                    <li><span class="ion-ios-location"></span> Union, New Jersey</li>
+                    <li><span class="ion-ios-telephone"></span>(973) 979-8472</li>
+                    <li><span class="ion-email"></span><a
+                      href="mailto:wismyseide@outlook.com">wismyseide@outlook.com</a></li>
+                  </ul>
+                </div>
+              </body>
+              </html>

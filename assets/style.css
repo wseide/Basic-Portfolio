@@ -1,0 +1,145 @@
+
+ .headbox {
+  background-color: white;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+.headboard {
+  background-color: teal;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+  width: 150px;
+  position: relative;
+  bottom: 0;
+ }
+
+#links {
+  position: relative; 
+  bottom: 0;
+  right: 0;
+}
+
+#headerbox {
+background-color: teal;
+color: white;
+width: 10%;
+min-height: 100%;
+}
+header {
+  background-color: white;
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  position: relative;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+}
+ #headcontent {
+   width: 100%;
+   text-align: center;
+}
+body {
+  background-color: #BABAAB;
+  height: 100%;
+  margin: 0px;
+  width: 960px;
+  
+       
+}
+h2 {
+  border-bottom: 3px solid gray;
+  background-color:#E8E8D5;
+  color: teal;
+  padding-bottom:20px;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: teal;
+  color: white;
+  padding: 12px 20px;
+}
+footer {
+  background-color: #282828;
+  border-top: 8px solid #4aaaa5;
+  padding: 10px;
+  text-align: center;
+  color: #464640;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%
+}
+.times { font-family: Times New Roman;
+color: white;
+}
+.timesparagraph { 
+  font-family: Georgia;
+  font-size: 18px;
+  line-height: 50px;
+}
+.content {
+  width:960px;
+  max-width: 960px;
+  height: 100%;
+  background-color:#E8E8D5;
+  box-shadow: 0px 4px 4px 4px #a9a9a9;
+  padding-top:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom:20px;
+  margin-top: 15px;
+  margin-bottom: 4px;
+  margin: auto;
+  height: auto;
+  margin: auto;
+  }
+  img {
+    padding: 7px 7px 7px 7px;
+    }
+    .column {
+      float: left;
+      width: 50%;
+      padding: 5px;
+    }
+    .column img {
+      margin-top: 5px;
+    } 
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+
+    html, body {
+      height: 100%;
+    
+  }
+  
+  html {
+      display: table;
+      margin: auto;
+  }
+  
+  body {
+      display: table-cell;
+      vertical-align: middle;
+  
+  }

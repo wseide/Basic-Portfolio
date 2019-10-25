@@ -1,49 +1,222 @@
-<!DOCTYPE HTML>
+<!--FIX THE SCROLLING HEADER-->
+<!--GET MORE PICTURES-->
+<!DOCTYPE html>
 <html lang="en-US">
-
 <head>
-    <Title>Portfolio</Title>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <Title>Portfolio</Title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Jomolhari&display=swap" rel="stylesheet">
+
+  <!--Library CSS Files-->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!--My CSS-->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<HTML>
-<header>
-    <div class="center">
-        <header class="headbox">
-            <div class="headboard"><strong>Wismy Seide</strong></div>
 
-            <div id="links">
-                <a href="index.html" style="float: right;" &nbsp;&nbsp;>About&nbsp;&nbsp;</a>
+<body id="page-top">
 
-</html>
-</div>
-<div id="links">
-    <a href="portfolio.html" style="float: right;">Portfolio</a></div>
-<div id="links">
-    <a href="contact.html" style="float: right;">Contact</a></div>
-</div>
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#page-top" style="color: black">Portfolio</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="index.html" style="color: black">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="about.html" style="color: black">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="portfolio.html" style="color: black">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="contact.html" style="color: black">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<br>
 
-</header>
 
-<Body>
-    <div id="content">
-        <section>
-            <div class="content">
-                <h2>Portfolio</h2>
-                <div class="row">
-                    <div class="column">
-                        <img src="assets/images/640.png" style="width:50%">
-                        <img src="assets/images/640.png" style="width:50%">
-                        <img src="assets/images/640.png" style="width:50%">
+  <section id="work" class="portfolio-mf sect-pt4 route" style="background-image: url(assets/images/portfoliobackground.png)">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h1 class="title-a">
+                  Portfolio
+                </h1>
+                <p class="subtitle-a">
+                  Works I Have Completed
+                </p>
+                <div class="line-mf"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="work-box">
+                <a href="assets/images/eatin.png" data-lightbox="gallery-mf">
+                  <div class="work-img">
+                    <img src="assets/images/eatin.png" alt="eatinout" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title"><a href="https://jayjscotto.github.io/project-1/">EatIn/EatOut</a></h2>
+                        <div class="w-more">
+                          <span class="w-ctegory"><a href="https://jayjscotto.github.io/project-1/">Application</a></span> / <span class="w-date">October 2019</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <span class="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
                     </div>
-                    <div class="column">
-                        <img src="assets/images/640.png" style="width:50%">
-                        <img src="assets/images/640.png" style="width:50%">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a href="assets/images/trainscheduler.png" data-lightbox="gallery-mf">
+                  <div class="work-img">
+                    <img src="assets/images/trainscheduler.png" alt="train scheduler" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title"><a href="https://wseide.github.io/TrainScheduler/">Train Scheduler</a></h2>
+                        <div class="w-more">
+                          <span class="w-ctegory"><a href="https://wseide.github.io/TrainScheduler/">Javascript</a></span> / <span class="w-date">September 2019</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <span class="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
                     </div>
-        </section>
-</body>
-<footer>
-    <div class="times">Copyright</div>
-</footer>
-
-</HTML>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a href="assets/images/giftastic.png" data-lightbox="gallery-mf">
+                  <div class="work-img">
+                    <img src="assets/images/giftastic.png" alt="giftastic" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title"><a href="https://wseide.github.io/Giftastic/">Giftastic</a></h2>
+                        <div class="w-more">
+                          <span class="w-ctegory"><a href="https://wseide.github.io/Giftastic/">Javascript</a></span> / <span class="w-date">September 2019</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <span class="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a href="assets/images/wwetrivia.png" data-lightbox="gallery-mf">
+                  <div class="work-img">
+                    <img src="assets/images/wwetrivia.png" alt="WWE Trivia" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title"><a href="https://wseide.github.io/TriviaGameReloaded/">WWE Trivia</a></h2>
+                        <div class="w-more">
+                          <span class="w-ctegory"><a href="https://wseide.github.io/TriviaGameReloaded/">Trivia Game</a></span> / <span class="w-date">September 2019</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <span class="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a href="assets/images/crystalgame.png" data-lightbox="gallery-mf">
+                  <div class="work-img">
+                    <img src="assets/images/crystalgame.png" alt="Crystal Game" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title"><a href="https://wseide.github.io/unit-4-game/">Crystal Game</a></h2>
+                        <div class="w-more">
+                          <span class="w-ctegory"><a href="https://wseide.github.io/unit-4-game/">JS Game</a></span> / <span class="w-date">September 2019</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <span class="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a href="assets/images/psychicgame.png" data-lightbox="gallery-mf">
+                  <div class="work-img">
+                    <img src="assets/images/psychicgame.png" alt="Psychic Game" class="img-fluid">
+                  </div>
+                  <div class="work-content">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h2 class="w-title"><a href="https://wseide.github.io/psychicgame/">Psychic Game</a></h2>
+                        <div class="w-more">
+                          <span class="w-ctegory"><a href="https://wseide.github.io/psychicgame/">JS Game</a></span> / <span class="w-date">September 2019</span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="w-like">
+                          <span class="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
