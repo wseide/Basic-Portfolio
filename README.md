@@ -1,7 +1,7 @@
 # My Full Stack Portfolio
 ### by Wismy Seide
 
-Full Stack Portfolio showing my work in a Coding Bootcamp class.  The portfolio shows knowledge of HTML, CSS, Bootstrap, Javascript, JQuery, Node.js, Responsive Design, MySQL, MongoDB, Handlebars, Local Storage, MERN, React.js, Heroku, & Git.
+Full Stack Portfolio showing my work in a Coding Bootcamp class.  The portfolio shows knowledge of HTML, CSS, Bootstrap, Javascript, JQuery, AJAX, Firebase, Node.js, Responsive Design, MySQL, MongoDB, Handlebars, Local Storage, MERN, React.js, Heroku, & Git.
 
 ### Collaborative Project:
 Eat-In-Out
