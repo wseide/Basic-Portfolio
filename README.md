@@ -9,6 +9,7 @@ Soccer Hooligans 365
 
 ### Personal Links:
 LinkedIn: [Wismy Seide LinkedIn](https://www.linkedin.com/in/wismy-seide-a044b0190)
+
 URL:  [Portfolio](https://wseide.github.io/Basic-Portfolio/)
 
 ### Acknowlegement
